@@ -1,0 +1,15 @@
+getgenv().Controller = {"Main Acc Username(s)"} -- Your main account(s)
+getgenv().Controlled = {"AltUsername1", "AltUsername2", "AltUsername3", "AltUsername4", "AltUsername5"} -- Your alts (order matters)
+getgenv().Ui = true -- true = show the control panel
+getgenv().Prefix = ".sz" -- Command prefix
+getgenv().Announce = false -- true = alts announce what they're doing
+getgenv().Key = "change-this-secret-word" -- Secret key for hidden commands
+getgenv().HideCommands = false -- DO NOT CHANGE THIS LEAVE THIS ALONE IT WILL BREAK YOUR HIDECMDS
+getgenv().AntiFlingSpeed = 200 -- DO NOT CHANGE
+getgenv().Whitelist = {} -- You do not need to add anything here this is for other accs or friends you dont want the alts to fling etc
+getgenv().FlingPower = 5000 -- Do not change unless yk what your doing
+getgenv().AutoUse = True -- Change to your liking True = on False = off
+getgenv().AutoUseUrl = "" -- put the SAME link as below to make AutoUse reload after serverhop/gameswitch
+getgenv().AutoUseFile = ""
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sparcxz/Sparcxz-ALT-Control/refs/heads/main/Sparcxz%20Alt%20Control%20Script.txt"))()
